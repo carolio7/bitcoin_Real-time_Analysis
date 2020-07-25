@@ -1,0 +1,72 @@
+.transform__AggregationLabel--button {
+  width: 24px; }
+
+.transform__AggregationLabel--text {
+  min-width: 0; }
+
+.transform__GroupByLabel--button {
+  width: 24px; }
+
+.transform__GroupByLabel--text {
+  min-width: 0; }
+
+.transform__GroupByLabel--interval {
+  max-width: 25%; }
+
+.transform__steps .euiStep__content {
+  padding-right: 0px; }
+
+/* This is an override to replicate the previous full-page-width of the transforms creation wizard
+when it was in use within the ML plugin. The Kibana management section limits a max-width to 1200px
+which is a bit narrow for the two column layout of the transform wizard. We might revisit this for
+future versions to blend in more with the overall design of the Kibana management section. */
+.mgtPage__body--transformWizard {
+  max-width: 100%; }
+
+.transformCreateTransformSearchDialog {
+  width: 720px;
+  min-height: 600px; }
+
+.transformStat {
+  margin-right: 8px; }
+
+.transformStatsBar {
+  height: 42px;
+  padding: 14px;
+  background-color: #F5F7FA; }
+
+.transform__TransformTable .euiTableRow-isExpandedRow .euiTableCellContent {
+  -webkit-animation: none !important;
+          animation: none !important; }
+  .transform__TransformTable .euiTableRow-isExpandedRow .euiTableCellContent .euiTableCellContent__text {
+    width: 100%; }
+
+.transform__TransformTable .euiIcon-isLoaded {
+  -webkit-animation: none !important;
+          animation: none !important; }
+
+.transform__BulkActionItem {
+  display: block;
+  padding: 8px;
+  width: 100%;
+  text-align: left; }
+
+.transform__BulkActionsBorder {
+  height: 20px;
+  border-right: 1px solid #D3DAE6;
+  width: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  height: 35px;
+  margin: 0px 5px;
+  margin-top: -5px; }
+
+.transform__ProgressBar {
+  margin-bottom: 12px; }
+
+.transform__TaskStateBadge, .transform__TaskModeBadge {
+  max-width: 100px; }
+
+.transform__TransformTable__messagesPaneTable .euiTableCellContent__text {
+  text-align: left; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ1aWxkL2tpYmFuYS94LXBhY2sveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3RyYW5zZm9ybS9wdWJsaWMvYXBwL3NlY3Rpb25zL2NyZWF0ZV90cmFuc2Zvcm0vY29tcG9uZW50cy9hZ2dyZWdhdGlvbl9saXN0L19hZ2dyZWdhdGlvbl9sYWJlbF9mb3JtLnNjc3MiLCJidWlsZC9ub2RlX21vZHVsZXMvQGVsYXN0aWMvZXVpL3NyYy9nbG9iYWxfc3R5bGluZy92YXJpYWJsZXMvX3NpemUuc2NzcyIsImJ1aWxkL2tpYmFuYS94LXBhY2sveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3RyYW5zZm9ybS9wdWJsaWMvYXBwL3NlY3Rpb25zL2NyZWF0ZV90cmFuc2Zvcm0vY29tcG9uZW50cy9ncm91cF9ieV9saXN0L19ncm91cF9ieV9sYWJlbF9mb3JtLnNjc3MiLCJidWlsZC9raWJhbmEveC1wYWNrL3gtcGFjay9sZWdhY3kvcGx1Z2lucy90cmFuc2Zvcm0vcHVibGljL2FwcC9zZWN0aW9ucy9jcmVhdGVfdHJhbnNmb3JtL2NvbXBvbmVudHMvd2l6YXJkL193aXphcmQuc2NzcyIsImJ1aWxkL2tpYmFuYS94LXBhY2svbGVnYWN5L3BsdWdpbnMvdHJhbnNmb3JtL3B1YmxpYy9hcHAvaW5kZXguc2NzcyIsImJ1aWxkL2tpYmFuYS94LXBhY2sveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3RyYW5zZm9ybS9wdWJsaWMvYXBwL3NlY3Rpb25zL3RyYW5zZm9ybV9tYW5hZ2VtZW50L2NvbXBvbmVudHMvY3JlYXRlX3RyYW5zZm9ybV9idXR0b24vX3RyYW5zZm9ybV9zZWFyY2hfZGlhbG9nLnNjc3MiLCJidWlsZC9raWJhbmEveC1wYWNrL3gtcGFjay9sZWdhY3kvcGx1Z2lucy90cmFuc2Zvcm0vcHVibGljL2FwcC9zZWN0aW9ucy90cmFuc2Zvcm1fbWFuYWdlbWVudC9jb21wb25lbnRzL3N0YXRzX2Jhci9fc3RhdC5zY3NzIiwiYnVpbGQva2liYW5hL3gtcGFjay94LXBhY2svbGVnYWN5L3BsdWdpbnMvdHJhbnNmb3JtL3B1YmxpYy9hcHAvc2VjdGlvbnMvdHJhbnNmb3JtX21hbmFnZW1lbnQvY29tcG9uZW50cy9zdGF0c19iYXIvX3N0YXRzX2Jhci5zY3NzIiwiYnVpbGQvbm9kZV9tb2R1bGVzL0BlbGFzdGljL2V1aS9zcmMvZ2xvYmFsX3N0eWxpbmcvdmFyaWFibGVzL19jb2xvcnMuc2NzcyIsImJ1aWxkL2tpYmFuYS94LXBhY2sveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3RyYW5zZm9ybS9wdWJsaWMvYXBwL3NlY3Rpb25zL3RyYW5zZm9ybV9tYW5hZ2VtZW50L2NvbXBvbmVudHMvdHJhbnNmb3JtX2xpc3QvX3RyYW5zZm9ybV90YWJsZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsV0NJMEIsRUFBQTs7QURENUI7RUFDRSxZQUFZLEVBQUE7O0FFTGQ7RUFDRSxXREkwQixFQUFBOztBQ0Q1QjtFQUNFLFlBQVksRUFBQTs7QUFHZDtFQUNFLGNBQWMsRUFBQTs7QUNUaEI7RUFFSSxrQkFBa0IsRUFBQTs7QUFJdEI7Ozs0RkNlNEY7QURYNUY7RUFDRSxlQUFlLEVBQUE7O0FFWGpCO0VBQ0UsWUFBcUI7RUFDckIsaUJBQTBCLEVBQUE7O0FDRjVCO0VBQ0UsaUJMRXlCLEVBQUE7O0FNSDNCO0VBRUUsWUFBWTtFQUNaLGFBQWE7RUFDYix5QkNhNkIsRUFBQTs7QUNqQi9CO0VBT0ksa0NBQTBCO1VBQTFCLDBCQUEwQixFQUFBO0VBUDlCO0lBU00sV0FBVyxFQUFBOztBQVRqQjtFQWdCSSxrQ0FBMEI7VUFBMUIsMEJBQTBCLEVBQUE7O0FBRzlCO0VBQ0UsY0FBYztFQUNkLFlSbEJ5QjtFUW1CekIsV0FBVztFQUNYLGdCQUFnQixFQUFBOztBQUdsQjtFQUNJLFlBQVk7RUFDWiwrQkRWd0I7RUNXeEIsVUFBVTtFQUNWLHFCQUFxQjtFQUNyQixzQkFBc0I7RUFDdEIsWUFBWTtFQUNaLGVBQWU7RUFDZixnQkFBZ0IsRUFBQTs7QUFHcEI7RUFDRSxtQlJsQzBCLEVBQUE7O0FRcUM1QjtFQUNFLGdCQUFnQixFQUFBOztBQUdsQjtFQUNFLGdCQUFnQixFQUFBIiwiZmlsZSI6ImJ1aWxkL2tpYmFuYS94LXBhY2svbGVnYWN5L3BsdWdpbnMvdHJhbnNmb3JtL3B1YmxpYy9hcHAvaW5kZXguc2NzcyJ9 */

@@ -1,0 +1,10 @@
+1-Cours_du_bitcoin_en_euro
+2-a)Volume_bitcoin_échangés_par_heure_(en_BTC)
+2-b)Volume_bitcoin_échangés_par_heure_(en_euro)
+3-a)Valeur_maximale_des_transactions_réalisées_par_heure_(en_BTC)
+3-b)Valeur_maximale_des_transactions_réalisées_par_heure_(en_euro)
+4-a)mineurs_qui_se_sont_le_plus_enrichis_par_jour__(en_BTC)
+4-b)mineurs_qui_se_sont_le_plus_enrichis_par_jour__(en_euro)
+4-c)mineurs_qui_se_sont_le_plus_enrichis_par_mois__(en_BTC)
+4-d)mineurs_qui_se_sont_le_plus_enrichis_par_mois__(en_euro)
+

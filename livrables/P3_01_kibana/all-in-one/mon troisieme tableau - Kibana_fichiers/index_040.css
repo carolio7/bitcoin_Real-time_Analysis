@@ -1,0 +1,17 @@
+.licFeature {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.licManagement__modal {
+  width: 70vw; }
+
+.licManagement__narrowText {
+  width: 240px; }
+
+.licManagement__ieFlex {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ1aWxkL2tpYmFuYS94LXBhY2sveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL2xpY2Vuc2VfbWFuYWdlbWVudC9wdWJsaWMvX2xpY2Vuc2VfbWFuYWdlbWVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsbUJBQVk7RUFBWixvQkFBWTtNQUFaLG9CQUFZO1VBQVosWUFBWSxFQUFBOztBQUlkO0VBQ0UsV0FBVyxFQUFBOztBQUdiO0VBQ0UsWUFBWSxFQUFBOztBQUdkO0VBQ0Usc0JBQWM7TUFBZCxvQkFBYztVQUFkLGNBQWMsRUFBQSIsImZpbGUiOiJidWlsZC9raWJhbmEveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL2xpY2Vuc2VfbWFuYWdlbWVudC9wdWJsaWMvaW5kZXguc2NzcyJ9 */

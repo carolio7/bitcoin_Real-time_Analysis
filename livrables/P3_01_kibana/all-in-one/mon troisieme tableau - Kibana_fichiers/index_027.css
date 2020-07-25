@@ -1,0 +1,28 @@
+.kbnNews__flyout {
+  top: 49px;
+  height: calc(100% - 48px); }
+
+.kbnNewsFeed__headerAlert.euiHeaderAlert {
+  margin-bottom: 24px;
+  padding: 0 8px 24px;
+  border-bottom: 1px solid #D3DAE6;
+  border-top: none; }
+  .kbnNewsFeed__headerAlert.euiHeaderAlert .euiHeaderAlert__title {
+    color: #1a1c21;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    line-height: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    margin-bottom: 8px; }
+  .kbnNewsFeed__headerAlert.euiHeaderAlert .euiHeaderAlert__text {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 16px; }
+  .kbnNewsFeed__headerAlert.euiHeaderAlert .euiHeaderAlert__action {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.5; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ1aWxkL2tpYmFuYS9zcmMvc3JjL2xlZ2FjeS9jb3JlX3BsdWdpbnMvbmV3c2ZlZWQvcHVibGljL25wX3JlYWR5L2NvbXBvbmVudHMvaGVhZGVyX2FsZXJ0L19pbmRleC5zY3NzIiwiYnVpbGQvbm9kZV9tb2R1bGVzL0BlbGFzdGljL2V1aS9zcmMvZ2xvYmFsX3N0eWxpbmcvdmFyaWFibGVzL19zaXplLnNjc3MiLCJidWlsZC9ub2RlX21vZHVsZXMvQGVsYXN0aWMvZXVpL3NyYy9nbG9iYWxfc3R5bGluZy92YXJpYWJsZXMvX2NvbG9ycy5zY3NzIiwiYnVpbGQvbm9kZV9tb2R1bGVzL0BlbGFzdGljL2V1aS9zcmMvZ2xvYmFsX3N0eWxpbmcvbWl4aW5zL190eXBvZ3JhcGh5LnNjc3MiLCJidWlsZC9ub2RlX21vZHVsZXMvQGVsYXN0aWMvZXVpL3NyYy9nbG9iYWxfc3R5bGluZy9mdW5jdGlvbnMvX2NvbG9ycy5zY3NzIiwiYnVpbGQvbm9kZV9tb2R1bGVzL0BlbGFzdGljL2V1aS9zcmMvZ2xvYmFsX3N0eWxpbmcvdmFyaWFibGVzL190eXBvZ3JhcGh5LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxTQUE4QjtFQUM5Qix5QkFBMkMsRUFBQTs7QUFHN0M7RUFDRSxtQkNIMEI7RURJMUIsbUJDSjBCO0VESzFCLGdDRVEwQjtFRlAxQixnQkFBZ0IsRUFBQTtFQUpsQjtJR2tCRSxjQ2xCMkM7SUNNM0MsZUpiZ0I7SUljaEIsZUFQcUM7SUZpRXJDLGdCRXhCcUI7SUExQnJCLG1CQWZxQztJRitCbkMsZ0JFa0J1QjtJRmpCdkIsc0JBQXNCO0lIeEJ0QixrQkNadUIsRUFBQTtFREkzQjtJS01FLGVBMkJzRDtJQTFCdEQsbUJBUHFDO0lGNERyQyxnQkVuQnFCO0lMNUJuQixtQkNwQmMsRUFBQTtFRE9sQjtJS01FLGVBMkJzRDtJQTFCdEQsbUJBUHFDO0lGNERyQyxnQkVuQnFCLEVBQUEiLCJmaWxlIjoiYnVpbGQva2liYW5hL3NyYy9sZWdhY3kvY29yZV9wbHVnaW5zL25ld3NmZWVkL3B1YmxpYy9pbmRleC5zY3NzIn0= */

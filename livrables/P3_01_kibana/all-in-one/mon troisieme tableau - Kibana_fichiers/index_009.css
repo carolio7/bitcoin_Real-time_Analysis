@@ -1,0 +1,20 @@
+.watcherThresholdWatchActionDropdownContainer {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.watcherThresholdWatchActionContextMenuItem,
+.watcherThresholdWatchInBetweenComparatorText {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center; }
+
+.watcherThresholdAlertAggFieldContainer {
+  width: 300px; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ1aWxkL2tpYmFuYS94LXBhY2sveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3dhdGNoZXIvcHVibGljL2luZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWUE7RUFDRSxxQkFBeUI7RUFBekIsaUNBQXlCO01BQXpCLGtCQUF5QjtVQUF6Qix5QkFBeUI7RUFDekIsOEJBQW1CO0VBQW5CLDZCQUFtQjtFQUFuQiwyQkFBbUI7TUFBbkIsdUJBQW1CO1VBQW5CLG1CQUFtQixFQUFBOztBQUdyQjs7RUFFRSwwQkFBa0I7TUFBbEIsMkJBQWtCO1VBQWxCLGtCQUFrQixFQUFBOztBQUdwQjtFQUNFLFlBQVksRUFBQSIsImZpbGUiOiJidWlsZC9raWJhbmEveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3dhdGNoZXIvcHVibGljL2luZGV4LnNjc3MifQ== */

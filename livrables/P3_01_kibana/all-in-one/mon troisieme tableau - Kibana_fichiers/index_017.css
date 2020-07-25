@@ -1,0 +1,67 @@
+/*
+ * Prevent switch controls from moving around when toggling content
+ */
+.snapshotRestore__restoreForm__stepLogistics .euiFormRow--hasEmptyLabelSpace,
+.snapshotRestore__restoreForm__stepSettings .euiFormRow--hasEmptyLabelSpace {
+  min-height: auto;
+  margin-top: 30px; }
+
+/*
+ * Allow toggle mode link in indices field label to be flushed right
+ */
+.snapshotRestore__restoreForm__stepLogistics__indicesFieldWrapper .euiFormLabel {
+  width: 100%; }
+
+/*
+ * Prevent switch controls from moving around when toggling content
+ */
+.snapshotRestore__policyForm__stepSettings .euiFormRow--hasEmptyLabelSpace {
+  min-height: auto;
+  margin-top: 30px; }
+
+/*
+ * Allow toggle mode link in indices field label to be flushed right
+ */
+.snapshotRestore__policyForm__stepSettings__indicesFieldWrapper .euiFormLabel {
+  width: 100%; }
+
+/*
+ * 1. Allow child progress bar to expand to container size
+ * 2. Adjust table styling to differentiate from parent table
+ */
+.snapshotRestore__shardsTable {
+  margin: 8px 0 8px 24px;
+  /* 2 */ }
+  .snapshotRestore__shardsTable .euiToolTipAnchor {
+    width: 100%;
+    /* 1 */ }
+  .snapshotRestore__shardsTable .euiTable {
+    background: none; }
+    .snapshotRestore__shardsTable .euiTable .euiTableRow:last-child > .euiTableRowCell {
+      border-bottom: none; }
+    .snapshotRestore__shardsTable .euiTable .euiTableRow:hover,
+    .snapshotRestore__shardsTable .euiTable .euiTableRow:hover > .euiTableRowCell {
+      background: #F5F7FA; }
+
+/*
+ * 1. Make in progress snapshot loading indicator be centered vertically
+ *    when it is inside tooltip wrapper
+ */
+.snapshotRestore__policyTable .euiToolTipAnchor {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+/*
+ * Wraps long snapshot name with ellipsis when it is rendered with an icon
+ */
+.snapshotRestorePolicyTableSnapshotFailureContainer {
+  max-width: 200px; }
+  .snapshotRestorePolicyTableSnapshotFailureContainer > .euiFlexItem:last-child {
+    min-width: 0; }
+    .snapshotRestorePolicyTableSnapshotFailureContainer > .euiFlexItem:last-child .euiText {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJ1aWxkL2tpYmFuYS94LXBhY2sveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3NuYXBzaG90X3Jlc3RvcmUvcHVibGljL2FwcC9jb21wb25lbnRzL3Jlc3RvcmVfc25hcHNob3RfZm9ybS9fcmVzdG9yZV9zbmFwc2hvdF9mb3JtLnNjc3MiLCJidWlsZC9raWJhbmEveC1wYWNrL2xlZ2FjeS9wbHVnaW5zL3NuYXBzaG90X3Jlc3RvcmUvcHVibGljL2FwcC9pbmRleC5zY3NzIiwiYnVpbGQva2liYW5hL3gtcGFjay94LXBhY2svbGVnYWN5L3BsdWdpbnMvc25hcHNob3RfcmVzdG9yZS9wdWJsaWMvYXBwL2NvbXBvbmVudHMvcG9saWN5X2Zvcm0vX3BvbGljeV9mb3JtLnNjc3MiLCJidWlsZC9raWJhbmEveC1wYWNrL3gtcGFjay9sZWdhY3kvcGx1Z2lucy9zbmFwc2hvdF9yZXN0b3JlL3B1YmxpYy9hcHAvc2VjdGlvbnMvaG9tZS9faG9tZS5zY3NzIiwiYnVpbGQvbm9kZV9tb2R1bGVzL0BlbGFzdGljL2V1aS9zcmMvZ2xvYmFsX3N0eWxpbmcvdmFyaWFibGVzL19zaXplLnNjc3MiLCJidWlsZC9ub2RlX21vZHVsZXMvQGVsYXN0aWMvZXVpL3NyYy9nbG9iYWxfc3R5bGluZy92YXJpYWJsZXMvX2NvbG9ycy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztFQ0VFO0FEQ0Y7O0VBR0ksZ0JBQWdCO0VBQ2hCLGdCQUEwRCxFQUFBOztBQUk5RDs7RUNERTtBRElGO0VBQ0UsV0FBVyxFQUFBOztBRWZiOztFRGdCRTtBQ2JGO0VBRUksZ0JBQWdCO0VBQ2hCLGdCQUEwRCxFQUFBOztBQUk5RDs7RURhRTtBQ1ZGO0VBQ0UsV0FBVyxFQUFBOztBQ2RiOzs7RUY4QkU7QUUxQkY7RUFLRSxzQkNKMEI7RURJZSxNQUFBLEVBQU87RUFMbEQ7SUFFSSxXQUFXO0lBQUUsTUFBQSxFQUFPO0VBRnhCO0lBT0ksZ0JBQWdCLEVBQUE7SUFQcEI7TUFTTSxtQkFBbUIsRUFBQTtJQVR6Qjs7TUFhTSxtQkVBeUIsRUFBQTs7QUZLL0I7OztFRjBCRTtBRXRCRjtFQUVJLG9CQUFhO0VBQWIscUJBQWE7RUFBYixvQkFBYTtFQUFiLGFBQWEsRUFBQTs7QUFJakI7O0VGc0JFO0FFbkJGO0VBQ0UsZ0JBQWdCLEVBQUE7RUFEbEI7SUFHTSxZQUFZLEVBQUE7SUFIbEI7TUFLUSxtQkFBbUI7TUFDbkIsZ0JBQWdCO01BQ2hCLHVCQUF1QixFQUFBIiwiZmlsZSI6ImJ1aWxkL2tpYmFuYS94LXBhY2svbGVnYWN5L3BsdWdpbnMvc25hcHNob3RfcmVzdG9yZS9wdWJsaWMvYXBwL2luZGV4LnNjc3MifQ== */
