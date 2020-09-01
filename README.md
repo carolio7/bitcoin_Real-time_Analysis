@@ -33,10 +33,15 @@ Lancez les clusters par les commandes suivantes :
 
 
 Installation de kafka-manager est compliqué comparé aux autres outils:
+
     1- clonez l'installation à partir de git, dans bash:  [git clone https://github.com/yahoo/kafka-manager.git]
+    
     2- dans le repertoire télechargé, lancez le packaging: [./sbt clean dist]
+    
     3- aller dans le sous-répertoire: [cd target/universal/kafka-manager-2.0.0.2/]
+    
     4- lancez kafka-manager : [ZK_HOSTS=localhost:2181 ./bin/kafka-manager]
+    
     5- Ajoutez le cluster kafka dans [localhost:9000] :
             Cluster --> Add cluster --> Cluster Zookeeper Hosts (à renseigner l'adresse de kafka)
 
