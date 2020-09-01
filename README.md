@@ -1,6 +1,6 @@
 ## Traitement de données en temps réel: bitcoin
 
-Ceci est l'application développée pour l'analyse en temps réel du bitcoin [Traitez des données en temps réel sur Openclassrooms](https://openclassrooms.com/fr/projects/115/assignment).
+![schéma topologie](https://github.com/carolio7/bitcoin_Real-time_Analysis/blob/master/architecture_fonctionnelle.png)
 
 Il contient :
 
